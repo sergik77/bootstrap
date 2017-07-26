@@ -68,5 +68,62 @@ background-color: #ec4848;
 width: 147px;
 height: 50px;
 }
+.about {
+    padding: 0 247px;
+    border: 1px solid #ebebeb; 
+    max-width: 1600px;
+}
+.about h1 {
+    margin-top: 100px;
+    margin-bottom: 60px;
+ font-family: RobotoCondensed;
+color: #3f444a;
+font-size: 40px; /* Приближение из-за подстановки шрифтов */
+font-weight: 700;
+text-align: center;
+}
+.about p {
+    margin: 0 auto 65px;
+    max-width: 800px;
+ font-family: RobotoCondensed;
+color: #5c6873;
+font-size: 18px; /* Приближение из-за подстановки шрифтов */
+font-weight: 300;
+line-height: 30px; /* Приближение из-за подстановки шрифтов */
+text-align: center;
+}
+
+.panel-title {
+    border-style: solid;
+border-width: 1px;
+border-color: rgba(138, 138, 138, 50);
+background-color: #3f444a;
+/*width: 578px;*/
+height: 57px;
+font-family: OpenSans;
+color: #ffffff;
+font-size: 16px; /* Приближение из-за подстановки шрифтов */
+font-weight: 600;
+/*line-height: 44px;  Приближение из-за подстановки шрифтов */
+text-align: center;
+}
+.progress {
+    border-style: solid;
+border-width: 1px;
+border-color:  rgba(138, 138, 138, 34);
+    background-color: #f2f2f2; ;
+width: 538px;
+height: 31px;
+}
+.progress-bar > p {
+    margin-left: 18px;
+font-family: RobotoCondensed;
+color: #fff;
+font-size: 16px; /* Приближение из-за подстановки шрифтов */
+font-weight: 400;
+/*line-height: 129.167px;  Приближение из-за подстановки шрифтов */
+text-align: left;
+    
+}
 
 
