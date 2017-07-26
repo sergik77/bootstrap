@@ -1,0 +1,72 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26.07.2017, 18:06:12
+    Author     : User
+*/
+.container-fluid {
+    max-width: 1600px;
+    padding: 0;
+}
+.navbar {
+    background-color:  #ffffff;
+    border: none;
+    margin: 28px;
+    padding: 0 200px;
+}
+.navbar-header .navbar-brand , .navbar-header .navbar-brand:hover, .navbar-header .navbar-brand:active {
+    font-family: PTSans;
+color:  #ec4848;
+font-size: 33.37px; /* Приближение из-за подстановки шрифтов */
+font-weight: 700;
+text-align: right;
+transform: scaleY(1.0188); /* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+}
+ .navbar-default .navbar-nav>.active li> a:focus, .navbar-default .navbar-nav>.active li>a{
+    color:  #ec4848;
+    background: none;
+}
+.glyphicon-search {
+    color:  #3f444a;
+    font-size: 30px;
+    padding: 9px;
+ 
+}
+.carousel-caption {
+    bottom: 30%;
+    
+}
+.carousel-caption h1{
+    
+    font-family: OpenSans;
+color: #ffffff;
+font-size: 90px; /* Приближение из-за подстановки шрифтов */
+font-weight: 700;
+margin-bottom: 30px;
+}
+.carousel-caption p {
+
+color: #ffffff;
+font-size: 14px; /* Приближение из-за подстановки шрифтов */
+font-weight: 600;
+margin-bottom: 85px;
+
+}
+.btn-more {
+    border: none;
+    border-radius: inherit;
+    font-family: RobotoCondensed;
+color: #ffffff;
+font-size: 16px; /* Приближение из-за подстановки шрифтов */
+font-weight: 700;
+
+
+background-color: #ec4848;
+width: 147px;
+height: 50px;
+}
+
+
